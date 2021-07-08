@@ -21,4 +21,5 @@ for new push
 	17. git stash pop --> restores the most recently stashed files
 	18. git stash list --> lists all stashed changesets
 	19. git stash drop --> discards the most recently stashed changeset
-	20. git branch -m master main --> to change the name of branch master to main 
+	20. git branch -m master main --> to change the name of branch master to main
+	21. git branch subBranch main --> to create a copy of the main branch

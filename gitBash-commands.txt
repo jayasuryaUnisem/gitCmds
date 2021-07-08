@@ -1,0 +1,24 @@
+for new push
+	1. git init --> for init the git
+	2. git add . --> for add all the files or git add "file name"  --> for add one file or folder
+	3. git commit -m "commiting reasons"  --> commit commands
+	4. git remote add origin <Remote URL> -->Sets the new remote
+	5. git remote -v -->Verifies the new remote uRL
+	6. pushing the files or folders 
+		1. git push origin main  --> push the changes in your local repoitory up to the remote repository you specifid as the origin
+		2. git push -u origin main
+		3. git push -f origin main --> force pushing
+	7. git branch  --> lists all the local branches in the current repository
+	8. git branch <branch name> --> for creates a new branch
+	9. git branch -d <branch name> --> deletes the feature brach
+	10. git checkout <branch name> --> switch from one branch to another
+        11. git checkout -b <branch name>  --> create a new branch and also switches
+	12. git merge <branch name> --> merges the specified branchs history into the current branch
+	13. git push -aal <variable name> --->pushes all branch to your remote repository
+	14. git push <variable name> :<branch name> --> deletes a branch on your remote repository
+	15. git pull <repository link> --> fetches and merges changes on the remote server to your working directory
+	16. git stash save --> temporaril stores all the mmodified tracked files
+	17. git stash pop --> restores the most recently stashed files
+	18. git stash list --> lists all stashed changesets
+	19. git stash drop --> discards the most recently stashed changeset
+	20. git branch -m master main --> to change the name of branch master to main 
